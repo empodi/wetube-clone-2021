@@ -4,7 +4,7 @@
   "description": "cloning youtube",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "win": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/empodi/wetube-clone-2021/issues"
   },
-  "homepage": "https://github.com/empodi/wetube-clone-2021#readme"
+  "homepage": "https://github.com/empodi/wetube-clone-2021#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
