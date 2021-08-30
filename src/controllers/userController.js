@@ -168,7 +168,7 @@ export const finishGithubLogin = async(req, res) => {
                 email: emailObj.email,
                 username: userData.login,
                 password: "",
-                SocialOnly: true,
+                socialOnly: true,
                 location: userData.location,
             });
         }
