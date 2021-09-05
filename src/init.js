@@ -4,7 +4,7 @@ import "./models/Video";
 import "./models/User";
 import app from "./server";
 
-const PORT = 4000;
+const PORT = 8181;
 
 //listen to server
 const handleListening = () => 
